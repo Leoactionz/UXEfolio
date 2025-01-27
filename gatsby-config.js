@@ -4,64 +4,58 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://a-marquez.github.io/portfolio/`,
     // Your Name
-    name: 'Albert Marquez',
+    name: 'Leonard Ugorji',
     // Main Site Title
-    title: `Albert Marquez | Software Engineer`,
+    title: `Leonard Ugorji | Software Engineer`,
     // Description that goes under your name in main bio
     description: `Software Engineer`,
     // Optional: Twitter account handle
     // author: `@a-marquez`,
     // Optional: Github account URL
-    github: `https://github.com/a-marquez`,
+    github: `https://github.com/leoactionz`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/al-marquez/`,
+    linkedin: `https://www.linkedin.com/in/leoactionz/`,
     // Content of the About Me section
-    email: `albertmarquez@outlook.com`,
+    email: `leonardugorji@gmail.com`,
     resume: `https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:edd99a3d-3506-4ecd-ac4e-55c1ca8d29cf`,
 
-    about: `I'm a software engineer with both front-end and back-end experience. Clean and performant code is a passion of mine, as is contributing to
-    efforts in environmental or health information spaces. Tech interests include automation scripting, computer-vision, machine learning,
-    and microservice orchestration. Non-tech interests include swimming, music, and survival games.`,
+    about: `I'm a software engineer skilled in front-end and back-end development, passionate about clean, efficient code and impactful solutions in fintech. My interests include AI, automation, computer vision, machine learning, and microservices, alongside swimming, football, and survival games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     work: [
+      
       {
-        name: '18F openFDA API Challenge | Blue Raster',
+        name: 'ParetOS | Open Source',
         description:
-          'A prototype map visualization for an API providing food recall information.',
-        link: 'https://www.blueraster.com/18f/',
+          'Localization of a high-level operating system to maximize human potential.',
+        link: 'https://github.com/Leoactionz/paretOS/commits/main/?author=Leoactionz',
       },
       {
-        name: 'Texas Water Explorer | The Nature Conservancy',
+        name: 'Cool Tour',
         description:
-          'A dashboard to visualize water metrics using geodata.',
-        link: 'http://www.texaswaterexplorer.tnc.org/map.html',
+          'Super fantastic tour booking web app',
+        link: 'https://cooltour.onrender.com/',
       },
       {
-        name: 'STATcompiler | The DHS Program',
+        name: 'Kryptoweb3 | Web 3.0',
         description:
-          'A data visualization and selection tool, allowing users to explore data in chart or map formats. ',
-        link: 'https://www.statcompiler.com/en/',
+          'Blockchain Application built Using Web 3.0 methodologies, Solidity and Metamask. ',
+        link: 'https://kryptoweb3.netlify.app/',
       },
       {
-        name: 'Surveys Overview Map | The DHS Program',
+        name: 'Budgetin App | Build Challenge',
         description:
-          "DHS's interactive map detailing what surveys have been conducted in what countries.",
-        link: 'https://dhsprogram.com/countries/index.cfm?show=map',
+          "A budgeting app that calculates a basic budget based on a list of income and expenses.",
+        link: 'https://budgetin.netlify.app/',
       },
       {
-        name: 'SDR Indicator Data | The DHS Program',
-        description: 'A tool to help users specify the selection and format of geodata for health surveys run by the DHS and other organizations.',
-        link: 'https://spatialdata.dhsprogram.com/data'
+        name: 'Omnifood',
+        description: 'An awesome food landing page.',
+        link: 'https://unifood.netlify.app/'
       },
       {
-        name: 'Ellisdale Construction',
-        description: 'WordPress site for a local construction business to display projects. Made to be easily edited by client.',
-        link: 'https://ellisdaleconstruction.com/'
-      },
-      {
-        name: 'Square 134 Architects',
-        description: 'Portfolio site for an architecture firm. Built with WordPress.',
-        link: 'https://square134.com/'
+        name: 'Travel listing',
+        description: 'React site designed for listing travel items, featuring an organized layout to showcase products such as luggage, travel accessories, and gear. Built with simple editing tools, enabling the client to easily update inventory.',
+        link: 'https://travel-list-vert-chi.vercel.app/'
       }
     ],
     projects: [
@@ -97,24 +91,24 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Digital Infuzion',
-        description: 'Software Engineer, January 2023 - Present',
-        link: 'https://www.digitalinfuzion.com/',
+        name: 'Klasha',
+        description: 'Software Engineer, January 2022 - Present',
+        link: 'https://www.klasha.com/',
       },
       {
-        name: 'CartoWorks',
-        description: 'Software Engineer, March 2020 - January 2023',
-        link: '',
+        name: 'SeerBit',
+        description: 'Software Engineer, March 2019 - January 2022',
+        link: 'https://www.SeerBit.com/',
       },
       {
-        name: 'Gypsy Floors',
+        name: 'Raven',
         description: 'IT Adminisrator, January 2016 - March 2020',
         link: '',
       },
       {
-        name: 'Blue Raster',
+        name: 'Kevank',
         description: 'Software Engineer, June 2013 - Dec 2016',
-        link: 'https://www.blueraster.com/',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -122,16 +116,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript/TypeScript, Node.js, React, Python, ArcGIS JS',
+          'JavaScript/TypeScript, Node.js, React, Python',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PosgreSQL, MySQL',
+        description: 'MongoDB, MySQL',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), GIT, CI / CD, Microservices, Figma, Functional Programming, WordPress',
+          'Webflow, Framer, Amazon Web Services (AWS), GIT, CI / CD, Microservices, Figma, Functional Programming, WordPress',
       },
     ],
   },
